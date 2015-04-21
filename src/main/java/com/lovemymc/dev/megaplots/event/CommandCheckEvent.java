@@ -13,19 +13,41 @@ import org.bukkit.event.HandlerList;
 public class CommandCheckEvent extends Event
 {
 
+	/**
+	 * Bukkit requires this.
+	 */
 	public static HandlerList handlers = new HandlerList();
+
+	/**
+	 * The instance of the CommandBlock that the event is being called for.
+	 */
 	@Getter
 	private final CommandBlock commandTile;
+
+	/**
+	 * The command that is to be processed.
+	 */
 	@Getter
 	@Setter
 	private String command;
+
+	/**
+	 * The arguments to be processed.
+	 */
 	@Getter
 	@Setter
 	private String[] args;
+
+	/**
+	 * The outcome of processing.
+	 */
 	@Getter
 	@Setter
 	private boolean allowed = false;
 
+	/**
+	 * The message to send the block if #allowed is false.
+	 */
 	@Getter
 	@Setter
 	private String disallowedMessage = "&cThat command isn't allowed.";
@@ -42,11 +64,15 @@ public class CommandCheckEvent extends Event
 		return handlers;
 	}
 
-	@Override public HandlerList getHandlers()
+	@Override
+	public HandlerList getHandlers()
 	{
 		return handlers;
 	}
 
+	/**
+	 * @return The final command and arguments. Spaces will be stripped from the command.
+	 */
 	public String getFinalCommandString()
 	{
 

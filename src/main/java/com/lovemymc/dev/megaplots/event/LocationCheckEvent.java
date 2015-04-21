@@ -15,12 +15,23 @@ public class LocationCheckEvent extends Event
 
 	public static HandlerList handlers = new HandlerList();
 
+	/**
+	 * The location to check from.
+	 * #checkLocation should be within range of #blockLocation.
+	 */
 	@Getter
 	private final Location blockLocation;
 
+	/**
+	 * The location to check against.
+	 * #checkLocation should be within range of #blockLocation.
+	 */
 	@Getter
 	private final Location checkLocation;
 
+	/**
+	 * The final result.
+	 */
 	@Getter
 	@Setter
 	private boolean allowed = false;
@@ -36,7 +47,8 @@ public class LocationCheckEvent extends Event
 		return handlers;
 	}
 
-	@Override public HandlerList getHandlers()
+	@Override
+	public HandlerList getHandlers()
 	{
 		return handlers;
 	}

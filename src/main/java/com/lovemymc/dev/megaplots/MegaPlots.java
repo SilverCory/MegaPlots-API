@@ -7,13 +7,23 @@ package com.lovemymc.dev.megaplots;
 public class MegaPlots
 {
 
+	/**
+	 * The instance of the API.
+	 */
 	private static IMPAPI instance;
 
+	/**
+	 * @return Returns the api and potentially NULL.
+	 */
 	public static IMPAPI getAPI()
 	{
 		return instance;
 	}
 
+	/**
+	 * Set the instance of the API.
+	 * @param mpapi The API please!
+	 */
 	static void setInstance( IMPAPI mpapi )
 	{
 		instance = mpapi;

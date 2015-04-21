@@ -9,6 +9,9 @@ import com.lovemymc.dev.megaplots.cooldown.ICooldownHandler;
 public interface IMPAPI
 {
 
+	/**
+	 * @return The cooldown handler that is being used.
+	 */
 	public ICooldownHandler getCooldown();
 
 }
