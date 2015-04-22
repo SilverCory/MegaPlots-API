@@ -28,3 +28,4 @@ command-block:
     set-name:
         no-args: '&eYou need to supply a name.'
         name-set: '&aThis command block''s name has been changed!'
+        bad-name: '&cYOU GIVE LOVE.. A BAD NAME! (The name you used isn''t allowed)'
