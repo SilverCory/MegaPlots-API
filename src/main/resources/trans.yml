@@ -1,0 +1,30 @@
+#######################################
+# The proper English translation file #
+#######################################
+plugin:
+    debug-enabled: 'Debugging is enabled!'
+    x-only: '&cThis command can only be executed by a {sender}!'
+
+permissions:
+    wand:
+        no-use: '&eYou aren''t allowed to use the wand!'
+        no-creative: '&eYou need to be in creative to use the wand!'
+        no-permission: '&c    No permission!'
+        no-build-permission: '&c    No build permission!'
+    command-set:
+        no-edit: '&eYou aren''t allowed to edit that command block!'
+        no-creative: '&eYou need to be in creative to edit that!'
+        no-permission: '&c    No permission!'
+        no-build-permission: '&c    No build permission!'
+        set-success: '&aCommand set.'
+        bad-data: '&4&lInvalid CommandBlock data!'
+
+cooldown:
+    cooldown-message: '&eThis command block is in cooldown!'
+
+command-block:
+    not-allowed: 'NOT_ALLOWED:'
+    now-allowed-feedback: '&cThat command isn''t allowed.'
+    set-name:
+        no-args: '&eYou need to supply a name.'
+        name-set: '&aThis command block''s name has been changed!'
