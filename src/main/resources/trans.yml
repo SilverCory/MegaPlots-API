@@ -4,6 +4,7 @@
 plugin:
     debug-enabled: 'Debugging is enabled!'
     x-only: '&cThis command can only be executed by a {sender}!'
+    command-denied: '&cYou are not allowed to use /{command}.'
 
 permissions:
     wand:
