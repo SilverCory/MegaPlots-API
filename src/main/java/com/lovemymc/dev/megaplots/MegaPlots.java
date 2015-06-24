@@ -1,4 +1,6 @@
-package com.lovemymc.dev.megaplots.api;
+package com.lovemymc.dev.megaplots;
+
+import com.lovemymc.dev.megaplots.api.IMPAPI;
 
 /**
  * @author Cory Redmond
