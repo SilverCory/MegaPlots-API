@@ -1,4 +1,4 @@
-package com.lovemymc.dev.megaplots.cooldown;
+package com.lovemymc.dev.megaplots.api.cooldown;
 
 import org.bukkit.Location;
 

@@ -1,6 +1,6 @@
-package com.lovemymc.dev.megaplots;
+package com.lovemymc.dev.megaplots.api;
 
-import com.lovemymc.dev.megaplots.cooldown.ICooldownHandler;
+import com.lovemymc.dev.megaplots.api.cooldown.ICooldownHandler;
 
 /**
  * @author Cory Redmond

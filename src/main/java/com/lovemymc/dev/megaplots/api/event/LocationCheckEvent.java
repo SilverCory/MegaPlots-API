@@ -1,4 +1,4 @@
-package com.lovemymc.dev.megaplots.event;
+package com.lovemymc.dev.megaplots.api.event;
 
 import lombok.Getter;
 import lombok.Setter;

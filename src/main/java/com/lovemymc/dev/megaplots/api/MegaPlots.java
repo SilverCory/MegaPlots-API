@@ -1,4 +1,4 @@
-package com.lovemymc.dev.megaplots;
+package com.lovemymc.dev.megaplots.api;
 
 /**
  * @author Cory Redmond
