@@ -1,6 +1,4 @@
-package com.lovemymc.dev.megaplots;
-
-import com.lovemymc.dev.megaplots.api.IMPAPI;
+package com.lovemymc.dev.megaplots.api;
 
 /**
  * @author Cory Redmond
@@ -26,7 +24,8 @@ public class MegaPlots
 	 * Set the instance of the API.
 	 * @param mpapi The API please!
 	 */
-	static void setInstance( IMPAPI mpapi )
+	@Deprecated
+	public static void setInstance( IMPAPI mpapi )
 	{
 		instance = mpapi;
 	}
