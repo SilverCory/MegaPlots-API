@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lovemymc.dev</groupId>
-    <version>2.2-SNAPSHOT</version>
+    <version>2.3</version>
     <artifactId>MegaPlots-API</artifactId>
 
 
@@ -46,10 +46,6 @@
     </build>
 
     <repositories>
-        <repository>
-            <id>AC3-CI</id>
-            <url>http://ci.ac3-servers.eu/plugin/repository/everything/</url>
-        </repository>
         <repository>
             <id>Spigot-Hub</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
