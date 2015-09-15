@@ -27,6 +27,7 @@ public class MegaPlots
 	@Deprecated
 	public static void setInstance( IMPAPI mpapi )
 	{
+		if ( instance != null ) throw new IllegalStateException( "Setting the MegaPlots API isn't allowed!" );
 		instance = mpapi;
 	}
 
