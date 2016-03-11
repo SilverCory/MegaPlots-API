@@ -81,7 +81,7 @@ public class CommandCheckEvent extends Event
 
 		if ( getCommand().contains( " " ) ) setCommand( getCommand().replace( " ", "" ) );
 
-		return new StringBuilder( getCommand() ).append( arguments ).toString();
+		return getCommand() + arguments;
 
 	}
 
