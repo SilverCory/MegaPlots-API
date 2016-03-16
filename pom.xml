@@ -7,7 +7,7 @@
 
     <groupId>com.lovemymc.dev</groupId>
     <version>2.5</version>
-    <artifactId>MegaPlots-API</artifactId>
+    <artifactId>megaplots-api</artifactId>
 
 
     <properties>
