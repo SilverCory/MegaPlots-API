@@ -1,7 +1,6 @@
 #######################################
 # The proper English translation file #
 #######################################
-
 plugin:
     debug-enabled: 'Debugging is enabled!'
     x-only: '&cThis command can only be executed by a {sender}!'
